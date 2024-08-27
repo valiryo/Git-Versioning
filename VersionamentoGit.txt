@@ -3,3 +3,13 @@
 2 Passo - git init
 
 3 Passo - git add . ##isso manda os arquivos para o stage (área temporária)
+
+Vc pode usar o git status 
+
+4 Passo - git commit -m "mensagem explicativa" ##salvar do stage pro repositório
+
+pra garantir que o projeto esteja na branch main e não haja conflito entre o nome antigo (master) e o novo padrão (main), use git branch -M main
+
+5 Passo - git remote add origin código_com_validação_SSH ##linka o repositório local com o repositório do github
+
+6 Passo - git push -u origin main ##Enviando pro meu repositório do github na branch main
