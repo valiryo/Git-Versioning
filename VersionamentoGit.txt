@@ -1,0 +1,5 @@
+1 Passo - git bash dentro da pasta do projeto
+
+2 Passo - git init
+
+3 Passo - git add . ##isso manda os arquivos para o stage (área temporária)
