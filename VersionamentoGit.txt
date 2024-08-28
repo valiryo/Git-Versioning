@@ -19,3 +19,6 @@ pra garantir que o projeto esteja na branch main e não haja conflito entre o no
 git clone link_do_repositório  ## traz o repositório remoto pro seu dispositivo
 
 git log --oneline ##versão resumida do git log
+
+git checkout código_do_commit ## Volta o código pra um commit específico e transforma ele no HEAD
+git checkout main ## Volta pro último commit
