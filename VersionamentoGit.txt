@@ -1,3 +1,8 @@
+
+
+testandoooooooooooooooooo
+
+
 1 Passo - git bash dentro da pasta do projeto
 
 2 Passo - git init
@@ -14,11 +19,19 @@ pra garantir que o projeto esteja na branch main e não haja conflito entre o no
 
 6 Passo - git push -u origin main ##Enviando pro meu repositório do github na branch main
 
+---------------Apagando Alterações e voltando pro último commit-------------------
+
+git clean -df         ## Remove arquivos untrackeds
+git checkout -- .	## desfaz alterações em arquivos rastreados
+
 
 -------------------Outros Comandos-----------------------------
+
 git clone link_do_repositório  ## traz o repositório remoto pro seu dispositivo
 
-git log --oneline ##versão resumida do git log
+git log --oneline ## versão resumida do git log
 
 git checkout código_do_commit ## Volta o código pra um commit específico e transforma ele no HEAD
 git checkout main ## Volta pro último commit
+
+git reset --soft HEAD~1  ## Apaga o último commit sem desfazer as modificações que já estavam salvas
